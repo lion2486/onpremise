@@ -1,6 +1,20 @@
-# Sentry On-Premise
+# Fork of Sentry On-Premise
 
-Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docker](https://www.docker.com/).
+## Environments requirements
+SENTRY_POSTGRES_HOST	docker.host
+SENTRY_POSTGRES_PORT	5432
+SENTRY_DB_NAME	sentry_db
+SENTRY_DB_USER	sentry_user
+SENTRY_DB_PASSWORD	<PASSWORD>
+SENTRY_SECRET_KEY	<SECRET_KEY>
+SENTRY_EMAIL_HOST	mail.domain.gr
+SENTRY_EMAIL_PORT	587
+SENTRY_EMAIL_USER	no-reply@domain.gr
+SENTRY_EMAIL_PASSWORD	<PASSWORD>
+SENTRY_SERVER_EMAIL	no-reply@domain.gr
+    
+## Hosts requirements
+docker.host to point to to the ip of the host server running postgresql service.
 
 ## Requirements
 
